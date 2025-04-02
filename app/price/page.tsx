@@ -15,7 +15,7 @@ export default function PricePage() {
           </p>
           <Separator />
           <h2 className="text-xl font-semibold">Install</h2>
-          <CopyInput copyText="price" />
+          <CopyInput copyText="https://shadcn-ecommerce-ui.vercel.app/r/price.json" />
           <Separator />
           <h2 className="text-xl font-semibold">Default Price</h2>
           <ComponentPreview

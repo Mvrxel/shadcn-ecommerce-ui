@@ -31,7 +31,7 @@ export default function ProductCardPage() {
           </p>
           <Separator />
           <h2 className="text-xl font-semibold">Install</h2>
-          <CopyInput copyText="product-card" />
+          <CopyInput copyText="https://shadcn-ecommerce-ui.vercel.app/r/product-card.json" />
           <Separator />
           <h2 className="text-xl font-semibold">Vertical Product Card</h2>
           <ComponentPreview

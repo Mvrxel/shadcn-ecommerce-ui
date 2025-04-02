@@ -14,7 +14,7 @@ export default function ReviewsPage() {
           </p>
           <Separator />
           <h2 className="text-xl font-semibold">Install</h2>
-          <CopyInput copyText="star-rating" />
+          <CopyInput copyText="https://shadcn-ecommerce-ui.vercel.app/r/reviews.json" />
           <Separator />
           <h2 className="text-xl font-semibold">Default Star Rating</h2>
           <ComponentPreview

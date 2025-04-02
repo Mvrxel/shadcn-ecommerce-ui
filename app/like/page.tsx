@@ -16,7 +16,7 @@ export default function LikesPage() {
           </p>
           <Separator />
           <h2 className="text-xl font-semibold">Install</h2>
-          <CopyInput copyText="like" />
+          <CopyInput copyText="https://shadcn-ecommerce-ui.vercel.app/r/like.json" />
           <Separator />
           <h2 className="text-xl font-semibold">Default Like</h2>
           <ComponentPreview
