@@ -50,4 +50,4 @@ export default Example;
 
 ## Documentation
 
-Detailed documentation and examples are available [here](./docs).
+Detailed documentation and examples are available [here](https://shadcn-ecommerce-ui.vercel.app/).
