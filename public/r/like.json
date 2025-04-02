@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "like",
+  "type": "registry:component",
+  "title": "Like",
+  "description": "A like component.",
+  "files": [
+    {
+      "path": "registry/ui/like.tsx",
+      "content": "import * as React from \"react\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\nimport { cn } from \"@/lib/utils\";\nimport { Heart } from \"lucide-react\";\n\nconst likeVariants = cva(\"flex items-center gap-1\", {\n  variants: {\n    size: {\n      sm: \"text-xs\",\n      md: \"text-sm\",\n      lg: \"text-base\",\n    },\n    variant: {\n      default: \"text-foreground\",\n      muted: \"text-muted-foreground\",\n    },\n  },\n  defaultVariants: {\n    size: \"md\",\n    variant: \"default\",\n  },\n});\n\nexport interface LikeProps\n  extends React.HTMLAttributes<HTMLDivElement>,\n    VariantProps<typeof likeVariants> {\n  count?: number;\n  isLiked?: boolean;\n  onLike?: () => void;\n}\n\nconst Like = React.forwardRef<HTMLDivElement, LikeProps>(\n  (\n    { className, size, variant, count, isLiked = false, onLike, ...props },\n    ref\n  ) => {\n    return (\n      <div\n        ref={ref}\n        className={cn(likeVariants({ size, variant }), className)}\n        onClick={onLike}\n        role=\"button\"\n        tabIndex={0}\n        {...props}\n      >\n        <Heart\n          className={cn(\n            isLiked ? \"fill-primary text-primary\" : \"text-muted-foreground\",\n            getHeartSize(size)\n          )}\n        />\n        {typeof count !== \"undefined\" && (\n          <span\n            className={cn(\n              \"ml-1 font-medium\",\n              size === \"sm\"\n                ? \"text-xs\"\n                : size === \"lg\"\n                  ? \"text-base\"\n                  : \"text-sm\",\n              variant === \"muted\" ? \"text-muted-foreground\" : \"\"\n            )}\n          >\n            {count}\n          </span>\n        )}\n      </div>\n    );\n  }\n);\nLike.displayName = \"Like\";\n\nfunction getHeartSize(size: \"sm\" | \"md\" | \"lg\" | null | undefined) {\n  switch (size) {\n    case \"sm\":\n      return \"h-3.5 w-3.5\";\n    case \"lg\":\n      return \"h-5 w-5\";\n    default:\n      return \"h-4 w-4\";\n  }\n}\n\nexport { Like };\n",
+      "type": "registry:component"
+    }
+  ]
+}

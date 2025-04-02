@@ -34,7 +34,7 @@
       "description": "A reviews component.",
       "files": [
         {
-          "path": "registry/ui/reviews.tsx",
+          "path": "registry/ui/star-rating.tsx",
           "type": "registry:component"
         }
       ]
