@@ -1,0 +1,55 @@
+{
+  "$schema": "https://shadcn-ecommerce-ui.vercel.app/registry/schema.json",
+  "name": "shadcn-ecommerce-ui",
+  "homepage": "https://shadcn-ecommerce-ui.vercel.app",
+  "items": [
+    {
+      "name": "product-card",
+      "type": "registry:component",
+      "title": "Product Card",
+      "description": "A product card component.",
+      "files": [
+        {
+          "path": "registry/ui/product-card.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "price",
+      "type": "registry:component",
+      "title": "Price",
+      "description": "A price component.",
+      "files": [
+        {
+          "path": "registry/ui/price.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "reviews",
+      "type": "registry:component",
+      "title": "Reviews",
+      "description": "A reviews component.",
+      "files": [
+        {
+          "path": "registry/ui/reviews.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "like",
+      "type": "registry:component",
+      "title": "Like",
+      "description": "A like component.",
+      "files": [
+        {
+          "path": "registry/ui/like.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}

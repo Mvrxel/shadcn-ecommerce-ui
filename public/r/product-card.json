@@ -1,0 +1,15 @@
+{
+  "name": "product-card",
+  "type": "registry:component",
+  "dependencies": ["lucide-react"],
+  "registryDependencies": [
+    "https://shadcn-ecommerce-ui.vercel.app/r/product-card.json"
+  ],
+  "files": [
+    {
+      "type": "registry:component",
+      "path": "/components/ui/product-card.tsx",
+      "target": "/components/ui/product-card.tsx"
+    }
+  ]
+}
