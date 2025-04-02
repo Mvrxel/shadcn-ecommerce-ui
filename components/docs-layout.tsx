@@ -8,6 +8,7 @@ import { ModeToggle } from "@/components/mode-toggle";
 
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import Link from "next/link";
 
 export function DocsLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -18,9 +19,15 @@ export function DocsLayout({ children }: { children: React.ReactNode }) {
           <SidebarTrigger />
           <Separator orientation="vertical" className="h-6" />
           <div className="ml-auto flex items-center gap-2">
-            <Button variant="outline" size="sm" className="h-8">
-              GitHub
-            </Button>
+            <Link
+              href="https://github.com/Mvrxel/shadcn-ecommerce-ui"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="sm" className="h-8">
+                GitHub
+              </Button>
+            </Link>
             <ModeToggle />
           </div>
         </header>

@@ -147,7 +147,7 @@ export function DocsSidebar() {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <a
-                href="https://github.com/yourusername/ecommerce-ui"
+                href="https://github.com/Mvrxel/shadcn-ecommerce-ui"
                 target="_blank"
                 rel="noopener noreferrer"
               >
