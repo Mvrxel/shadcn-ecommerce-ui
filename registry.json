@@ -50,6 +50,18 @@
           "type": "registry:component"
         }
       ]
+    },
+    {
+      "name": "cart",
+      "type": "registry:component",
+      "title": "Cart",
+      "description": "A cart component.",
+      "files": [
+        {
+          "path": "registry/ui/cart.tsx",
+          "type": "registry:component"
+        }
+      ]
     }
   ]
 }

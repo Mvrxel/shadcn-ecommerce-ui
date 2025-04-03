@@ -38,6 +38,7 @@ export function DocsSidebar() {
     { name: "Star Rating", href: "/star-rating" },
     { name: "Price", href: "/price" },
     { name: "Like", href: "/like" },
+    { name: "Cart", href: "/cart" },
   ];
 
   const blocks = [{ name: "Product Block 001", href: "/product-block-001" }];
