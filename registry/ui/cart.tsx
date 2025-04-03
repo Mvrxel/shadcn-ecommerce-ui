@@ -106,7 +106,11 @@ const CartItemContent = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
-  <div ref={ref} className={cn("flex flex-1 flex-col", className)} {...props} />
+  <div
+    ref={ref}
+    className={cn("flex flex-1 flex-col p-2", className)}
+    {...props}
+  />
 ));
 CartItemContent.displayName = "CartItemContent";
 
