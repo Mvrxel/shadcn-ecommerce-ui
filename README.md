@@ -14,9 +14,9 @@ Open-source, reusable e-commerce UI components built with [shadcn/ui](https://ui
 Use ShadCN CLI to easy installation
 
 ```bash
-npx shadcn@latest add star-rating
+npx shadcn@latest add https://shadcn-ecommerce-ui.vercel.app/r/star-rating.json
 # or
-pnpm dlx shadcn@latest add star-rating
+pnpm dlx shadcn@latest add https://shadcn-ecommerce-ui.vercel.app/r/star-rating.json
 ```
 
 ## Usage
