@@ -107,7 +107,7 @@ import {
   ProductCardPriceAmount,
   ProductCardPriceOriginal,
   ProductCardActions,
-} from  "@/components/ui/product-card";
+} from  "@/components/product-card";
 
 export function VerticalProductCardDemo() {
   return (
@@ -233,7 +233,7 @@ import {
   ProductCardPriceAmount,
   ProductCardPriceOriginal,
   ProductCardActions,
-} from  "@/components/ui/product-card";
+} from  "@/components/product-card";
 
 export function HorizontalProductCardDemo() {
   return (

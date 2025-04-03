@@ -12,7 +12,7 @@ import {
   ProductCardPriceAmount,
   ProductCardRating,
   ProductCardTitle,
-} from "@/components/ui/product-card";
+} from "@/components/product-card";
 import Image from "next/image";
 import { useState } from "react";
 

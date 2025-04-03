@@ -21,7 +21,7 @@ export default function PricePage() {
           <ComponentPreview
             preview={<Price price={99.99} />}
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -37,7 +37,7 @@ export default function PricePage() {
           <ComponentPreview
             preview={<Price price={79.99} originalPrice={99.99} />}
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -53,7 +53,7 @@ export default function PricePage() {
           <ComponentPreview
             preview={<Price price={79.99} currency="€" />}
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -69,7 +69,7 @@ export default function PricePage() {
           <ComponentPreview
             preview={<Price price={79.99} size="sm" />}
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -85,7 +85,7 @@ export default function PricePage() {
           <ComponentPreview
             preview={<Price price={79.99} size="lg" />}
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -101,7 +101,7 @@ export default function PricePage() {
           <ComponentPreview
             preview={<Price price={79.99} size="xl" />}
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -117,7 +117,7 @@ export default function PricePage() {
           <ComponentPreview
             preview={<Price price={79.99} size="2xl" />}
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -141,7 +141,7 @@ export default function PricePage() {
               />
             }
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -161,7 +161,7 @@ export default function PricePage() {
               <Price price={79.99} originalPrice={99.99} showBadge={false} />
             }
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -177,7 +177,7 @@ export default function PricePage() {
           <ComponentPreview
             preview={<Price price={79.99} variant="muted" />}
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (
@@ -193,7 +193,7 @@ export default function PricePage() {
           <ComponentPreview
             preview={<Price price={79.99} variant="primary" />}
             code={`
-                import { Price } from "@/components/ui/price"
+                import { Price } from "@/components/price"
 
                 export default function PricePage() {
                   return (

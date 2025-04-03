@@ -20,7 +20,7 @@ export default function ReviewsPage() {
           <ComponentPreview
             preview={<StarRating rating={3} />}
             code={`
-                import { StarRating } from "@/components/ui/star-rating"
+                import { StarRating } from "@/components/star-rating"
 
                 export default function ReviewsPage() {
                   return (
@@ -36,7 +36,7 @@ export default function ReviewsPage() {
           <ComponentPreview
             preview={<StarRating rating={3.5} />}
             code={`
-                import { StarRating } from "@/components/ui/star-rating"
+                import { StarRating } from "@/components/star-rating"
 
                 export default function ReviewsPage() {
                   return (
@@ -54,7 +54,7 @@ export default function ReviewsPage() {
           <ComponentPreview
             preview={<StarRating rating={4.5} reviewCount={10} />}
             code={`
-                import { StarRating } from "@/components/ui/star-rating"
+                import { StarRating } from "@/components/star-rating"
 
                 export default function ReviewsPage() {
                   return (
@@ -70,7 +70,7 @@ export default function ReviewsPage() {
           <ComponentPreview
             preview={<StarRating rating={3.5} size="sm" />}
             code={`
-                import { StarRating } from "@/components/ui/star-rating"
+                import { StarRating } from "@/components/star-rating"
 
                 export default function ReviewsPage() {
                   return (
@@ -86,7 +86,7 @@ export default function ReviewsPage() {
           <ComponentPreview
             preview={<StarRating rating={3.5} size="lg" />}
             code={`
-                import { StarRating } from "@/components/ui/star-rating"
+                import { StarRating } from "@/components/star-rating"
 
                 export default function ReviewsPage() {
                   return (
@@ -102,7 +102,7 @@ export default function ReviewsPage() {
           <ComponentPreview
             preview={<StarRating rating={3} showEmpty={false} />}
             code={`
-                import { StarRating } from "@/components/ui/star-rating"
+                import { StarRating } from "@/components/star-rating"
 
                 export default function ReviewsPage() {
                   return (

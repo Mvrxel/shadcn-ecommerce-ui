@@ -22,7 +22,7 @@ export default function LikesPage() {
           <ComponentPreview
             preview={<Like count={42} />}
             code={`
-                import { Like } from "@/components/ui/like"
+                import { Like } from "@/components/like"
 
                 export default function LikesPage() {
                   return (
@@ -38,7 +38,7 @@ export default function LikesPage() {
           <ComponentPreview
             preview={<Like count={42} isLiked={true} />}
             code={`
-                import { Like } from "@/components/ui/like"
+                import { Like } from "@/components/like"
 
                 export default function LikesPage() {
                   return (
@@ -54,7 +54,7 @@ export default function LikesPage() {
           <ComponentPreview
             preview={<Like count={42} size="sm" />}
             code={`
-                import { Like } from "@/components/ui/like"
+                import { Like } from "@/components/like"
 
                 export default function LikesPage() {
                   return (
@@ -70,7 +70,7 @@ export default function LikesPage() {
           <ComponentPreview
             preview={<Like count={42} size="lg" />}
             code={`
-                import { Like } from "@/components/ui/like"
+                import { Like } from "@/components/like"
 
                 export default function LikesPage() {
                   return (
@@ -86,7 +86,7 @@ export default function LikesPage() {
           <ComponentPreview
             preview={<Like count={42} variant="muted" />}
             code={`
-                import { Like } from "@/components/ui/like"
+                import { Like } from "@/components/like"
 
                 export default function LikesPage() {
                   return (
@@ -104,7 +104,7 @@ export default function LikesPage() {
               <Like count={42} isLiked={true} onLike={() => alert("Liked!")} />
             }
             code={`
-                import { Like } from "@/components/ui/like"
+                import { Like } from "@/components/like"
 
                 export default function LikesPage() {
                   return (
