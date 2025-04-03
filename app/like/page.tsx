@@ -1,8 +1,8 @@
 "use client";
 import { ComponentPreview } from "@/components/component-preview";
 import { Separator } from "@/components/ui/separator";
-import { CopyInput } from "../../components/copy-input";
-import { Like } from "../../components/ui/like";
+import { CopyInput } from "@/components/copy-input";
+import { Like } from "@/registry/ui/like";
 
 export default function LikesPage() {
   return (

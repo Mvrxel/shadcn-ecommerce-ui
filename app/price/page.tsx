@@ -1,7 +1,7 @@
 import { ComponentPreview } from "@/components/component-preview";
 import { Separator } from "@/components/ui/separator";
-import { CopyInput } from "../../components/copy-input";
-import { Price } from "../../components/ui/price";
+import { CopyInput } from "@/components/copy-input";
+import { Price } from "@/registry/ui/price";
 
 export default function PricePage() {
   return (

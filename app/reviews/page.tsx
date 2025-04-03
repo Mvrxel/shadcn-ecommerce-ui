@@ -1,7 +1,7 @@
 import { ComponentPreview } from "@/components/component-preview";
 import { Separator } from "@/components/ui/separator";
-import { CopyInput } from "../../components/copy-input";
-import { StarRating } from "../../components/ui/star-rating";
+import { CopyInput } from "@/components/copy-input";
+import { StarRating } from "@/registry/ui/star-rating";
 
 export default function ReviewsPage() {
   return (

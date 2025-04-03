@@ -13,7 +13,7 @@ import {
   ProductCardPriceAmount,
   ProductCardPriceOriginal,
   ProductCardActions,
-} from "@/components/ui/product-card";
+} from "@/registry/ui/product-card";
 import { Heart, Star, ShoppingCart } from "lucide-react";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
