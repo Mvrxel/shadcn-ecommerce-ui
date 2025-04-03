@@ -8,13 +8,13 @@ export default function ReviewsPage() {
     <div className="space-y-8">
       <div className="space-y-2">
         <div className="space-y-4">
-          <h2 className="text-2xl font-semibold">Product Reviews</h2>
+          <h2 className="text-2xl font-semibold">Star Rating</h2>
           <p className="text-muted-foreground">
             A component that displays a star rating and a review count.
           </p>
           <Separator />
           <h2 className="text-xl font-semibold">Install</h2>
-          <CopyInput copyText="https://shadcn-ecommerce-ui.vercel.app/r/reviews.json" />
+          <CopyInput copyText="https://shadcn-ecommerce-ui.vercel.app/r/star-rating.json" />
           <Separator />
           <h2 className="text-xl font-semibold">Default Star Rating</h2>
           <ComponentPreview

@@ -28,10 +28,10 @@
       ]
     },
     {
-      "name": "reviews",
+      "name": "star-rating",
       "type": "registry:component",
-      "title": "Reviews",
-      "description": "A reviews component.",
+      "title": "Star Rating",
+      "description": "A star rating component.",
       "files": [
         {
           "path": "registry/ui/star-rating.tsx",

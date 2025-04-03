@@ -35,7 +35,7 @@ export function DocsSidebar() {
 
   const components = [
     { name: "Product Card", href: "/product-card" },
-    { name: "Product Reviews", href: "/reviews" },
+    { name: "Star Rating", href: "/star-rating" },
     { name: "Price", href: "/price" },
     { name: "Like", href: "/like" },
   ];
